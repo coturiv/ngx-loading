@@ -1,14 +1,14 @@
 {
-  "name": "ngx-loading",
-  "version": "8.0.0",
+  "name": "@coturiv/ngx-loading",
+  "version": "12.1.0",
   "description": "A customisable loading spinner for Angular applications.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Zak-C/ngx-loading.git"
+    "url": "git+https://github.com/coturiv/ngx-loading.git"
   },
   "keywords": [
     "Angular",
-    "Angular 8",
+    "Angular 12",
     "ng",
     "ngx",
     "load",
@@ -18,27 +18,30 @@
     "wait",
     "ngx-loading",
     "Angular loading",
-    "Angular 8 loading",
+    "Angular loading",
     "Angular spinner",
-    "Angular 8 spinner",
+    "Angular spinner",
     "Angular loading spinner",
-    "Angular 8 loading spinner"
+    "Angular loading spinner"
   ],
   "author": "Zak Cox",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Zak-C/ngx-loading/issues"
+    "url": "https://github.com/coturiv/ngx-loading/issues"
   },
-  "homepage": "https://github.com/Zak-C/ngx-loading#readme",
+  "homepage": "https://github.com/coturiv/ngx-loading#readme",
   "peerDependencies": {
-    "@angular/common": "^8.0.0",
-    "@angular/core": "^8.0.0"
+    "@angular/common": "^12.0.0",
+    "@angular/core": "^12.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
   },
   "ngPackage": {
     "$schema": "./node_modules/ng-packagr/ng-package.schema.json",
     "lib": {
       "entryFile": "src/public_api.ts"
     },
-    "dest": "../dist/ngx-loading"
+    "dest": "../../dist/ngx-loading"
   }
 }
