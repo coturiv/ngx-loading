@@ -1,7 +1,7 @@
 # ngx-loading
 A customisable loading spinner for Angular applications.
 
-[![npm version](https://badge.fury.io/js/ngx-loading.svg)](https://badge.fury.io/js/ngx-loading)
+[![npm version](https://badge.fury.io/js/%40coturiv%2Fngx-loading.svg)](https://badge.fury.io/js/%40coturiv%2Fngx-loading)
 
 ![ngx-loading](https://cloud.githubusercontent.com/assets/26901242/25317405/05a1ce4a-2870-11e7-8693-ed2394b54cba.gif)
 
@@ -20,12 +20,12 @@ Install ngx-loading via NPM, using the command below.
 
 ### NPM
 ```shell
-npm install --save ngx-loading
+npm install --save @coturiv/ngx-loading
 ```
 
 NOTE: Version 8 of this package requires Angular 8 as a dependency. If you are using Angular 7, please install version 7. For Angular 6, please install version 3 and for Angular 4 / 5, please install version 2.0.1 e.g.
 ```shell
-npm install --save ngx-loading@2.0.1
+npm install --save @coturiv/ngx-loading
 ```
 
 ## Getting started
@@ -35,7 +35,7 @@ Import the `NgxLoadingModule` in your root application module:
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { CoreModule } from './core/core.module';
-import { NgxLoadingModule } from 'ngx-loading';
+import { NgxLoadingModule } from '@coturiv/ngx-loading';
 
 @NgModule({
   //...
@@ -128,7 +128,7 @@ Config options can be set globally (using the `.forRoot() module import statemen
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { CoreModule } from './core/core.module';
-import { NgxLoadingModule, ngxLoadingAnimationTypes } from 'ngx-loading';
+import { NgxLoadingModule, ngxLoadingAnimationTypes } from '@coturiv/ngx-loading';
 
 @NgModule({
   //...
